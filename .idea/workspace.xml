@@ -4,14 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab1beeab-c3ea-45d6-b401-626ebead2d80" name="Changes" comment="" />
+    <list default="true" id="ab1beeab-c3ea-45d6-b401-626ebead2d80" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/amazon_page_objects/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/amazon_page_objects/CartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/amazon_page_objects/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/amazon_page_objects/ProductPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/amazon_page_objects/SearchResultsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/modules/ConfirmationMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/modules/DeliverToConfirmationModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/modules/DeliverToModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/modules/SortByModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/modules/page_locators/PageLocators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AmazonTests/AddOrRemoveItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AmazonTests/DeliverTo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AmazonTests/VerifySearchAndFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AmazonTests/VerifySearchField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/webdriver/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2G4kLPnqp5bDBTTIwm4TUDaQQIM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -19,12 +52,127 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Tamas_Demeny/IdeaProjects/test-run/src/test/resources/webdriver&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Tamas_Demeny\IdeaProjects\test-run\src\test\resources\webdriver" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.VerifySearchAndFilter.sortByPrice">
+    <configuration name="VerifySearchAndFilter.searchFilterByBrand" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="test-run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.AmazonTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.AmazonTests" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AmazonTests.VerifySearchAndFilter" />
+      <option name="METHOD_NAME" value="searchFilterByBrand" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerifySearchAndFilter.searchFilterByPrice" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="test-run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.AmazonTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.AmazonTests" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AmazonTests.VerifySearchAndFilter" />
+      <option name="METHOD_NAME" value="searchFilterByPrice" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerifySearchAndFilter.sortByPrice" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="test-run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.AmazonTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.AmazonTests" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AmazonTests.VerifySearchAndFilter" />
+      <option name="METHOD_NAME" value="sortByPrice" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerifySearchField.searchForLaptopInResults" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="test-run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.AmazonTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.AmazonTests" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AmazonTests.VerifySearchField" />
+      <option name="METHOD_NAME" value="searchForLaptopInResults" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerifySearchField.searchResultsForLaptop" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="test-run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.AmazonTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.AmazonTests" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AmazonTests.VerifySearchField" />
+      <option name="METHOD_NAME" value="searchResultsForLaptop" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.VerifySearchAndFilter.sortByPrice" />
+        <item itemvalue="TestNG.VerifySearchAndFilter.searchFilterByPrice" />
+        <item itemvalue="TestNG.VerifySearchAndFilter.searchFilterByBrand" />
+        <item itemvalue="TestNG.VerifySearchField.searchForLaptopInResults" />
+        <item itemvalue="TestNG.VerifySearchField.searchResultsForLaptop" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -35,5 +183,16 @@
       <updated>1665655188239</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
