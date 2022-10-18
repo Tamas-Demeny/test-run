@@ -1,4 +1,4 @@
-package org.example.AmazonTests;
+package org.example.AmazonTestsSelenium;
 
 import org.example.BaseTest;
 import org.example.amazon_page_objects.*;

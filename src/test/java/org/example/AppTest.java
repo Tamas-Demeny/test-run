@@ -1,8 +1,9 @@
 package org.example;
 
-import org.example.AmazonTests.AddOrRemoveItems;
-import org.example.AmazonTests.DeliverTo;
-import org.example.AmazonTests.VerifySearchField;
+import org.example.AmazonTestsSelenium.AddOrRemoveItems;
+import org.example.AmazonTestsSelenium.DeliverTo;
+import org.example.AmazonTestsSelenium.VerifySearchAndFilter;
+import org.example.AmazonTestsSelenium.VerifySearchField;
 import org.testng.annotations.Test;
 
 /**
@@ -23,6 +24,11 @@ public class AppTest{
         verifySearchField.searchForLaptopInResults();
         verifySearchField.searchResultsForLaptop();
         verifySearchField.verifyNoResultsForIncorrectInformation();
+
+        VerifySearchAndFilter verifySearchAndFilter = new VerifySearchAndFilter();
+        verifySearchAndFilter.sortByPrice();
+        verifySearchAndFilter.searchFilterByBrand();
+        verifySearchAndFilter.searchFilterByPrice();
     }
 
 }

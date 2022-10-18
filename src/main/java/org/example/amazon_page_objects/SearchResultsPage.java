@@ -38,7 +38,7 @@ public class SearchResultsPage extends BasePage {
     }
 
     public List<WebElement> searchResultsPresence() {
-        return driver.findElements(laptopResults);
+        return driver.findElements(productsList);
     }
 
     public String getFirstBrand() {
@@ -76,7 +76,7 @@ public class SearchResultsPage extends BasePage {
         return Double.parseDouble(highPrice.getAttribute("value"));
     }
 
-    public List<WebElement> listOfPrices() {
+    public List<WebElement> listOfMainPrices() {
         return listOFProductPrices;
     }
 

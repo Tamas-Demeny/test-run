@@ -1,4 +1,4 @@
-package org.example.AmazonTests;
+package org.example.AmazonTestsSelenium;
 
 import org.example.BaseTest;
 import org.example.amazon_page_objects.HomePage;
@@ -26,7 +26,7 @@ public class VerifySearchField extends BaseTest {
         String searchAmount = homePage.openAmazonHomePage()
                 .searchMethod("laptop")
                 .getResultAmount();
-        Assert.assertEquals(searchAmount, "1-16 of over 7,000 results for \"laptop\"");
+        Assert.assertEquals(searchAmount, "1-16 of over 6,000 results for \"laptop\"");
     }
 
     @Test
@@ -34,10 +34,20 @@ public class VerifySearchField extends BaseTest {
         HomePage homePage = new HomePage(driver);
         List<WebElement> searchResult = homePage.openAmazonHomePage()
                 .searchMethod("laptop")
-                .searchResultsPresence();
+                .listOfProducts();
         Assert.assertTrue(searchResult.stream()
-                                        .anyMatch(x -> x.getText()
-                                        .toLowerCase()
-                                        .contains("laptop")));
+                                        .allMatch(x -> x.getText()
+                                                .toLowerCase()
+                                                .contains("laptop".toLowerCase()) ||
+                                                x.getText()
+                                                        .toLowerCase()
+                                                        .contains("chromebook".toLowerCase())||
+                                                x.getText()
+                                                        .toLowerCase()
+                                                        .contains("hp".toLowerCase())||
+                                                x.getText()
+                                                        .toLowerCase()
+                                                        .contains("acer".toLowerCase())));
+//                                        .forEach(x-> System.out.println(x.getText() + "\n"));
     }
 }

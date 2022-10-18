@@ -4,27 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab1beeab-c3ea-45d6-b401-626ebead2d80" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/amazon_page_objects/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/amazon_page_objects/CartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/amazon_page_objects/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/amazon_page_objects/ProductPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/amazon_page_objects/SearchResultsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/modules/ConfirmationMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/modules/DeliverToConfirmationModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/modules/DeliverToModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/modules/SortByModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/modules/page_locators/PageLocators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AmazonTests/AddOrRemoveItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AmazonTests/DeliverTo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AmazonTests/VerifySearchAndFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AmazonTests/VerifySearchField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/webdriver/chromedriver.exe" afterDir="false" />
+    <list default="true" id="ab1beeab-c3ea-45d6-b401-626ebead2d80" name="Changes" comment="Amazon Selenium test practice">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/amazon_page_objects/SearchResultsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/amazon_page_objects/SearchResultsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/modules/page_locators/PageLocators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/modules/page_locators/PageLocators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AmazonTests/AddOrRemoveItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AmazonTestsSelenium/AddOrRemoveItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AmazonTests/DeliverTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AmazonTestsSelenium/DeliverTo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AmazonTests/VerifySearchAndFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AmazonTestsSelenium/VerifySearchAndFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AmazonTests/VerifySearchField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AmazonTestsSelenium/VerifySearchField.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,36 +59,18 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.VerifySearchAndFilter.sortByPrice">
-    <configuration name="VerifySearchAndFilter.searchFilterByBrand" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.AppTest.amazonTests">
+    <configuration name="AppTest.amazonTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="test-run" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.AmazonTests.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.AmazonTests" />
-      <option name="MAIN_CLASS_NAME" value="org.example.AmazonTests.VerifySearchAndFilter" />
-      <option name="METHOD_NAME" value="searchFilterByBrand" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VerifySearchAndFilter.searchFilterByPrice" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="test-run" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.AmazonTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.AmazonTests" />
-      <option name="MAIN_CLASS_NAME" value="org.example.AmazonTests.VerifySearchAndFilter" />
-      <option name="METHOD_NAME" value="searchFilterByPrice" />
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AppTest" />
+      <option name="METHOD_NAME" value="amazonTests" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -113,14 +82,31 @@
       <module name="test-run" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.AmazonTests.*" />
+          <option name="PATTERN" value="org.example.AmazonTestsSelenium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.AmazonTests" />
-      <option name="MAIN_CLASS_NAME" value="org.example.AmazonTests.VerifySearchAndFilter" />
+      <option name="PACKAGE_NAME" value="org.example.AmazonTestsSelenium" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AmazonTestsSelenium.VerifySearchAndFilter" />
       <option name="METHOD_NAME" value="sortByPrice" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerifySearchField" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="test-run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.AmazonTestsSelenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.AmazonTestsSelenium" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AmazonTestsSelenium.VerifySearchField" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -131,12 +117,12 @@
       <module name="test-run" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.AmazonTests.*" />
+          <option name="PATTERN" value="org.example.AmazonTestsSelenium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.AmazonTests" />
-      <option name="MAIN_CLASS_NAME" value="org.example.AmazonTests.VerifySearchField" />
+      <option name="PACKAGE_NAME" value="org.example.AmazonTestsSelenium" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AmazonTestsSelenium.VerifySearchField" />
       <option name="METHOD_NAME" value="searchForLaptopInResults" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -149,12 +135,12 @@
       <module name="test-run" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.AmazonTests.*" />
+          <option name="PATTERN" value="org.example.AmazonTestsSelenium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.AmazonTests" />
-      <option name="MAIN_CLASS_NAME" value="org.example.AmazonTests.VerifySearchField" />
+      <option name="PACKAGE_NAME" value="org.example.AmazonTestsSelenium" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AmazonTestsSelenium.VerifySearchField" />
       <option name="METHOD_NAME" value="searchResultsForLaptop" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -165,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AppTest.amazonTests" />
         <item itemvalue="TestNG.VerifySearchAndFilter.sortByPrice" />
-        <item itemvalue="TestNG.VerifySearchAndFilter.searchFilterByPrice" />
-        <item itemvalue="TestNG.VerifySearchAndFilter.searchFilterByBrand" />
-        <item itemvalue="TestNG.VerifySearchField.searchForLaptopInResults" />
         <item itemvalue="TestNG.VerifySearchField.searchResultsForLaptop" />
+        <item itemvalue="TestNG.VerifySearchField" />
+        <item itemvalue="TestNG.VerifySearchField.searchForLaptopInResults" />
       </list>
     </recent_temporary>
   </component>
@@ -182,6 +168,14 @@
       <option name="presentableId" value="Default" />
       <updated>1665655188239</updated>
     </task>
+    <task id="LOCAL-00001" summary="Amazon Selenium test practice">
+      <created>1666006504448</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666006504448</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,5 +188,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Amazon Selenium test practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Amazon Selenium test practice" />
   </component>
 </project>

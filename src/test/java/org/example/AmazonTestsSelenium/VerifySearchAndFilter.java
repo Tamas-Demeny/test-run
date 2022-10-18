@@ -1,4 +1,4 @@
-package org.example.AmazonTests;
+package org.example.AmazonTestsSelenium;
 
 import org.example.BaseTest;
 import org.example.amazon_page_objects.HomePage;
@@ -19,7 +19,7 @@ public class VerifySearchAndFilter extends BaseTest {
         String ourFilter = searchResultsPage.getFirstBrand();
         List<WebElement> productsList = searchResultsPage.listOfProducts();
         Assert.assertTrue(productsList.stream()
-                                        .anyMatch(x -> x.getText()
+                                        .allMatch(x -> x.getText()
                                                             .toLowerCase()
                                                             .contains(ourFilter.toLowerCase())));
     }
@@ -32,9 +32,9 @@ public class VerifySearchAndFilter extends BaseTest {
                 .filterByPrice();
         Double lowest = searchResultsPage.priceRangeLow();
         Double highest = searchResultsPage.priceRangeHigh();
-        Assert.assertTrue(searchResultsPage.listOfPrices()
+        Assert.assertTrue(searchResultsPage.listOfMainPrices()
                                                 .stream()
-                                                .anyMatch(s -> Double.parseDouble(s.getText()) > lowest
+                                                .allMatch(s -> Double.parseDouble(s.getText()) > lowest
                                                         && Double.parseDouble(s.getText()) < highest));
     }
 
@@ -45,10 +45,10 @@ public class VerifySearchAndFilter extends BaseTest {
                 .clickOnFirstCategory()
                 .openSortByOptions()
                 .proceLowerToHighest();
-        Assert.assertTrue(searchResultsPage.listOfPrices()
+        Assert.assertTrue(searchResultsPage.listOfMainPrices()
                                                 .stream()
                                                 .sorted()
                                                 .toList()
-                                                .equals(searchResultsPage.listOfPrices()));
+                                                .equals(searchResultsPage.listOfMainPrices()));
     }
 }
