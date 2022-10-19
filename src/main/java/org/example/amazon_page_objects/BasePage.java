@@ -38,4 +38,17 @@ public abstract class BasePage implements PageLocators {
         return new WebDriverWait(driver, Duration.ofSeconds(20))
                 .until(ExpectedConditions.visibilityOfElementLocated(NEW_LOCATION)).getText();
     }
+
+    public String amountOfProductInCart() {
+        WebElement amountOfProductInCart = new WebDriverWait(driver, Duration.ofSeconds(20))
+                .until(ExpectedConditions.visibilityOfElementLocated(AMOUNT_OF_PRODUCT_IN_CART));
+        return amountOfProductInCart.getText();
+    }
+
+    public CartPage openCart(){
+        new WebDriverWait(driver, Duration.ofSeconds(20))
+                .until(ExpectedConditions.visibilityOfElementLocated(AMOUNT_OF_PRODUCT_IN_CART))
+                .click();
+        return new CartPage(driver);
+    }
 }

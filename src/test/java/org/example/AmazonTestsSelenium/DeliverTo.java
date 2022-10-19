@@ -30,7 +30,7 @@ public class DeliverTo extends BaseTest {
         HomePage homePage = new HomePage(driver);
         homePage.openAmazonHomePage()
                 .clickDeliverTo()
-                .deliverToCountry(POLAND_OPTION);
+                .deliverToCountry("Poland");
 
         //wait for the page to update
         new WebDriverWait(driver, Duration.ofSeconds(20))

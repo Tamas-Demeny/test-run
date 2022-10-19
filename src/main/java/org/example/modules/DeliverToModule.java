@@ -26,12 +26,14 @@ public class DeliverToModule extends BasePage {
         return new DeliverToConfirmationModule(driver);
     }
 
-    public HomePage deliverToCountry(By countryPath){
+    public HomePage deliverToCountry(String country){
         WebElement listDropDown = new WebDriverWait(driver, Duration.ofSeconds(20))
                 .until(ExpectedConditions.visibilityOfElementLocated(LIST_DROP_DOWN));
         listDropDown.click();
         WebElement countryOption = new WebDriverWait(driver, Duration.ofSeconds(20))
-                .until(ExpectedConditions.visibilityOfElementLocated(countryPath));
+                .until(ExpectedConditions.visibilityOfElementLocated(
+                        By.xpath("//a[@tabindex=\"-1\"][contains(text(),\""+country+"\")]"
+                )));
         countryOption.click();
         driver.findElement(DONE).click();
 

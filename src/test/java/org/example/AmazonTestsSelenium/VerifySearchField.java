@@ -48,6 +48,5 @@ public class VerifySearchField extends BaseTest {
                                                 x.getText()
                                                         .toLowerCase()
                                                         .contains("acer".toLowerCase())));
-//                                        .forEach(x-> System.out.println(x.getText() + "\n"));
     }
 }

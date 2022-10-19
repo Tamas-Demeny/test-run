@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab1beeab-c3ea-45d6-b401-626ebead2d80" name="Changes" comment="Amazon Selenium test practice">
+    <list default="true" id="ab1beeab-c3ea-45d6-b401-626ebead2d80" name="Changes" comment="Amazon Selenium test practice final">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/amazon_page_objects/SearchResultsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/amazon_page_objects/SearchResultsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/modules/page_locators/PageLocators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/modules/page_locators/PageLocators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AmazonTests/AddOrRemoveItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AmazonTestsSelenium/AddOrRemoveItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AmazonTests/DeliverTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AmazonTestsSelenium/DeliverTo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AmazonTests/VerifySearchAndFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AmazonTestsSelenium/VerifySearchAndFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AmazonTests/VerifySearchField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AmazonTestsSelenium/VerifySearchField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/amazon_page_objects/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/amazon_page_objects/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/modules/ConfirmationMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/modules/ConfirmationMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/modules/DeliverToModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/modules/DeliverToModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AmazonTestsSelenium/DeliverTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AmazonTestsSelenium/DeliverTo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AmazonTestsSelenium/VerifySearchField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AmazonTestsSelenium/VerifySearchField.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +57,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AppTest.amazonTests">
+  <component name="RunManager" selected="TestNG.DeliverTo.deliverToZipCode">
     <configuration name="AppTest.amazonTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="test-run" />
       <extension name="coverage">
@@ -78,6 +76,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DeliverTo.deliverToPoland" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="test-run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.AmazonTestsSelenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.AmazonTestsSelenium" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AmazonTestsSelenium.DeliverTo" />
+      <option name="METHOD_NAME" value="deliverToPoland" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeliverTo.deliverToZipCode" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="test-run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.AmazonTestsSelenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.AmazonTestsSelenium" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AmazonTestsSelenium.DeliverTo" />
+      <option name="METHOD_NAME" value="deliverToZipCode" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VerifySearchAndFilter.sortByPrice" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="test-run" />
       <extension name="coverage">
@@ -89,41 +123,6 @@
       <option name="PACKAGE_NAME" value="org.example.AmazonTestsSelenium" />
       <option name="MAIN_CLASS_NAME" value="org.example.AmazonTestsSelenium.VerifySearchAndFilter" />
       <option name="METHOD_NAME" value="sortByPrice" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VerifySearchField" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="test-run" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.AmazonTestsSelenium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.AmazonTestsSelenium" />
-      <option name="MAIN_CLASS_NAME" value="org.example.AmazonTestsSelenium.VerifySearchField" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VerifySearchField.searchForLaptopInResults" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="test-run" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.AmazonTestsSelenium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.AmazonTestsSelenium" />
-      <option name="MAIN_CLASS_NAME" value="org.example.AmazonTestsSelenium.VerifySearchField" />
-      <option name="METHOD_NAME" value="searchForLaptopInResults" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -151,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DeliverTo.deliverToZipCode" />
+        <item itemvalue="TestNG.DeliverTo.deliverToPoland" />
         <item itemvalue="TestNG.AppTest.amazonTests" />
         <item itemvalue="TestNG.VerifySearchAndFilter.sortByPrice" />
         <item itemvalue="TestNG.VerifySearchField.searchResultsForLaptop" />
-        <item itemvalue="TestNG.VerifySearchField" />
-        <item itemvalue="TestNG.VerifySearchField.searchForLaptopInResults" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666006504448</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Amazon Selenium test practice final">
+      <created>1666086570935</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666086570935</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,6 +197,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Amazon Selenium test practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Amazon Selenium test practice" />
+    <MESSAGE value="Amazon Selenium test practice final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Amazon Selenium test practice final" />
   </component>
 </project>
