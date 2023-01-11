@@ -9,7 +9,6 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-import static org.example.modules.page_locators.PageLocators.POLAND_OPTION;
 import static org.example.modules.page_locators.PageLocators.UPDATED_DELIVER_TO;
 
 public class DeliverTo extends BaseTest {
